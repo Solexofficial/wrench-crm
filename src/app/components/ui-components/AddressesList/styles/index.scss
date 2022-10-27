@@ -1,0 +1,11 @@
+.addresses-list__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: $base-color;
+  font-size: $text-second-size;
+}
+
+.addresses-list__item {
+  border-top: 1px solid $divider;
+  padding: 16px 0;
+}

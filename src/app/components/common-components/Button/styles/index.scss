@@ -1,0 +1,13 @@
+.button {
+  padding: 20px 40px;
+  width: 220px;
+  height: 70px;
+
+  background-color: $accent;
+  color: $white;
+  font-size: $text-second-size;
+  border-radius: $border-radius;
+  stroke: none;
+  cursor: pointer;
+  border: 0;
+}

@@ -1,0 +1,12 @@
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-profileName {
+  margin-left: 16px;
+  font-weight: 700;
+  &--white {
+    color: $white;
+  }
+}

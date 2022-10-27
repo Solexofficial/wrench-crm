@@ -1,0 +1,24 @@
+.search-bar {
+  & form {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.search-bar__input {
+  outline: none;
+  padding: 24px;
+  width: 72%;
+
+  border: 3px solid $gray;
+  border-radius: $border-radius;
+
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+
+  &:focus {
+    border: 3px solid $accent;
+  }
+}

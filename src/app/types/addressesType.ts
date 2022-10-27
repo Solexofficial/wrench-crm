@@ -1,0 +1,20 @@
+export type AddressesType = {
+  suggestions: string[];
+  _id: string;
+  roomNumber: number | string;
+  countReviews?: number;
+  rate?: number;
+  images?: Array<string>;
+  price: number;
+  type?: 'Стандарт' | 'Люкс';
+  comforts?: Array<string>;
+  bookings?: Array<string> | null;
+  hasWifi?: boolean;
+  hasConditioner?: boolean;
+  hasWorkSpace?: boolean;
+  canSmoke?: boolean;
+  canPets?: boolean;
+  canInvite?: boolean;
+  hasWideCorridor?: boolean;
+  hasDisabledAssistant?: boolean;
+};

@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-title {
+  margin-left: 24px;
+  color: $white;
+  font-weight: 700;
+}

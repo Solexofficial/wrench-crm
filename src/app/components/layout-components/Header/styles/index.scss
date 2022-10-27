@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: $accent;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__button {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
